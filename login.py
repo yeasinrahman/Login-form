@@ -35,16 +35,16 @@ def login():
         except :
             messagebox.showerror('error','error no account')
 
-# ?frame
+
 frame=Frame(win,bg='white')
 frame.place(x=400,y=160,height=450,width=600)
-# # pic
+
 image = Image. open('log2.jpg')
 image = image. resize((430, 380), Image. ANTIALIAS)
 bg=ImageTk.PhotoImage(image)
 bag=Label(win,image=bg).place(x=130,y=190)
 
-# from
+
 tittle3=Label(frame,text="Login Here", font=("times new roman", 50 ,'bold'),bg='white',fg='#08A3D2')
 tittle3.place(x=200,y=20)
 
